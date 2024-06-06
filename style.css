@@ -6,6 +6,7 @@ header{
     height: 100px;
     width: 100%;
     display: flex;
+    position: fixed;
 }
 .headerTop{
     color: rgb(255, 255, 255);
@@ -38,8 +39,8 @@ a:hover{
     color: black;
 }
 section{
-    background-color: rgb(0, 0, 0);
-    height: 500px;
+    background-color: rgb(255, 255, 255);
+    height: 700px;
 }
 footer{
     background-color: blue;
@@ -54,8 +55,41 @@ footer{
 
 /* CSS PAGINA IMAGENS */
 
-.textoImagens{
-    color: aqua;
+.sectionImg{
+    height: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.b1{
+    background-image: url("https://purina.com.br/sites/default/files/styles/webp/public/2022-12/purina-friskies-quantos-anos-vive-um-gato.jpg.webp?itok=aMHUNN67");
+    width: 300px;
+    height: 250px;
+    background-size: 500px;
+    background-position: -50px;
+}
+.b2{
+    background-image: url("https://www.designi.com.br/images/preview/10094828.jpg");
+    width: 300px;
+    height: 250px;
+    background-size: 400px;
+    background-position: -50px;
+}
+.b3{
+    background-image: url("https://static.vecteezy.com/ti/fotos-gratis/t2/3616148-gatinho-bebe-ao-ar-livre-na-grama-foto.jpg");
+    width: 300px;
+    height: 250px;
+    background-size: 500px;
+    background-position: -100px;
+}
+.b4{
+    background-image: url("https://www.revistaveterinaria.com.br/wp-content/uploads/2018/11/gatinho-preguicoso1.jpg");
+    width: 300px;
+    height: 250px;
+    background-size: 500px;
+    background-position: -50px;
 }
 
 
