@@ -6,7 +6,6 @@ header{
     height: 100px;
     width: 100%;
     display: flex;
-    position: fixed;
 }
 .headerTop{
     color: rgb(255, 255, 255);
@@ -92,9 +91,93 @@ footer{
     background-position: -50px;
 }
 
-
-
 /* CSS PAGINA VIDEOS */
 .textoVideos{
     color: rgb(204, 67, 158);
 }
+
+/* CSS CONTATOS */
+.sectionContatos{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(233, 210, 255);
+    position: relative;
+    right: 200px;
+    margin-left: 380px;
+    margin-right: 20px;
+}
+.form1{
+    background-color: rgb(172, 112, 190);
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: rgb(89, 0, 172);
+    margin-bottom: 10px;
+}
+.form2{
+    background-color: rgb(172, 112, 190);
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color:rgb(89, 0, 172);
+    margin-bottom: 10px;
+}
+.form3{
+    background-color:rgb(172, 112, 190);
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: rgb(89, 0, 172); 
+    margin-bottom: 10px;
+}
+.form4{
+    background-color: rgb(172, 112, 190);
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: rgb(89, 0, 172); 
+    margin-bottom: 10px;
+}
+button{
+    background-color: rgb(86, 23, 145);
+    color: white;
+    border-radius: 5px;
+}
+.label{
+    color: rgb(89, 0, 172);
+}
+
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.formMarcar{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 200px;
+
+}
+
+.label2{
+    color: rgb(89, 0, 172);
+}
+
