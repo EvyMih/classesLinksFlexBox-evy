@@ -6,13 +6,18 @@ header{
     height: 100px;
     width: 100%;
     display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
 }
 .headerTop{
     color: rgb(255, 255, 255);
-    width: 40%;
+  
 }
 .lista{
-    width: 40%;
+
+  position: relative;
+  left: 10%;
 }
 .lista ul{
     list-style-type: none;
@@ -42,24 +47,52 @@ section{
     height: 700px;
 }
 footer{
-    background-color: blue;
+    background-color: rgb(126, 126, 126);
     height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+.footerHome1{
+
 }
 
 /* CSS PAGINA HOME */
-
-.textoHome{
-    color: white;
+.sectionHome{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px orange;
+    height: 450px;
+    justify-content: space-around;
+    align-items: center;
 }
+.imagemHome{
+    border: solid 1px purple;
+    height: 300px;
+    width: 40%;
+}
+.textoHome{
+    border: solid 1px rgb(12, 197, 105);
+    height: 300px;
+    width: 40%;
+}
+.p1{
+    color: rgb(80, 0, 117);
+}
+
+
 
 /* CSS PAGINA IMAGENS */
 
 .sectionImg{
-    height: 1500px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .b1{
@@ -92,9 +125,16 @@ footer{
 }
 
 /* CSS PAGINA VIDEOS */
-.textoVideos{
-    color: rgb(204, 67, 158);
+
+.sectionVideos{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
 
 /* CSS CONTATOS */
 .sectionContatos{
@@ -181,3 +221,59 @@ button{
     color: rgb(89, 0, 172);
 }
 
+/* Testando @medias Query */
+
+/* @medias Query pag imagens */
+
+@media only screen and (min-width:000px) and (max-width: 800px){
+    .sectionImg{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:000px) and (max-width: 800px){
+    .sectionVideos{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:800px) and (max-width: 1200px){
+    body{
+        background-color: rgb(195, 0, 255);
+    }
+}
+
+@media only screen and (min-width:1201px){
+    body{
+        background-color: rgb(255, 10, 10);
+    }
+}
